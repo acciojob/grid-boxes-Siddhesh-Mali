@@ -1,1 +1,66 @@
-/*  your css code here. If applicable */
+
+body{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.div1{
+    background-color: green;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+.div2{
+    background-color: green;
+    grid-row: 2/6;
+    grid-column: 1/2;
+}
+.div3{
+    background-color: green;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.div4{
+    background-color: green;
+    grid-row: 2/3;
+    grid-column: 3/5;
+}
+.div5{
+    background-color: green;
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+.div6{
+    background-color: green;
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.div7{
+    background-color: green;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+.div8{
+    background-color: green;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.div9{
+    background-color: green;
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+.div0{
+    background-color: green;
+    grid-row: 5/6;
+    grid-column: 2/5;
+}
